@@ -1,5 +1,13 @@
+'use client'
+import {useRouter} from "next/navigation"
 
 export default function Main() {
+
+    const router = useRouter();
+    const handleInput = () => {
+        router.push("http://localhost:3000/page/AboutMe")
+    }
+
     return(
         <main className="flex align-center justify-center gap-32 ">
             <div className="pt-40">
@@ -18,12 +26,14 @@ export default function Main() {
                     <img className="" src="./img/Avatar-Maker.png" alt="imagem cartoon" width="400" height="400"/>
             </div>
             <div className="flex align-center justify-end pt-52 pl-38">
-                <button className="border border-purple h-10 w-44 hover:bg-purple"    >
+                <button onClick={handleInput} className="border border-purple h-10 w-44 hover:bg-purple"    >
                     About me
                 </button>
             </div>
         </main>
     )
 } 
+
+
 
       
