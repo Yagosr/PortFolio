@@ -6,7 +6,7 @@ export default function Main() {
 
     const router = useRouter();
     const handleInput = () => {
-        router.push("http://localhost:3000/page/AboutMe")
+        router.push("http://localhost:3001/page/AboutMe")
     }
 
     return(
