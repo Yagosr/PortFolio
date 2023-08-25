@@ -15,7 +15,9 @@ module.exports = {
       },
       colors: {
         'dark-gray': '#090e16',
-        'purple': '#422c7c'
+        'purple': '#422c7c',
+        'dark-purple':'#313866',
+        'wine':'#352F44'
       },
     },
   },
