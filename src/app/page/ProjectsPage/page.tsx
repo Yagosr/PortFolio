@@ -1,6 +1,19 @@
+'use client'
+import {useRouter} from "next/navigation"
+import ButtonBack from "@/app/components/ButtonBack/page";
+
 export default function ProjectsPage() {
+
+    const router = useRouter();
+    const handleInput = () => {
+        router.push("http://localhost:3000")
+    }
+    
     return(
         <main className="">
+            <div className="" onClick={handleInput}>
+                <ButtonBack/>
+            </div>
             <div className="flex justify-center items-center p-10 gap-5">
                 <div className="flex flex-col items-center justify-center rounded-md border border-dark-purple w-64 h-64 gap-5 ">
                     <div className=" w-52 ">
