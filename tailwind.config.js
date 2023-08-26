@@ -6,7 +6,6 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
       screens: {
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
@@ -34,6 +33,7 @@ module.exports = {
         RobotoMono: ['Black Ops One', 'cursive']
       },
     },
+    extend: {
   },
   plugins: [],
 }
