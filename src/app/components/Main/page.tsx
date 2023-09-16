@@ -26,7 +26,7 @@ export default function Main() {
                 </div> 
             </div>
             <div className="flex align-center justify-center">
-                    <img className="" src="./img/Avatar-Maker.png" alt="imagem cartoon" width="400" height="400"/>
+                    <img className="" src="./img/Avatar-Maker.png" alt="imagem cartoon" width={400} height={400}/>
             </div>
             <div className="flex align-center justify-end pt-52 pl-38">
                 <button onClick={handleInput} className="border border-purple h-10 w-44 hover:bg-purple"    >

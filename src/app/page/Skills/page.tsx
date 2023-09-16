@@ -43,7 +43,7 @@ export default function Skills() {
                     </div>
 
                     <div className="">
-                        <div className="flex justify-center mt-16 text-purple bg-gray font-RobotoMono text-2xl">
+                        <div className="flex justify-center mt-16 text-purple  font-RobotoMono text-2xl">
                             <strong>tech que ja tive contato</strong>
                         </div>
                         <div className="flex justify-center bg-gray ">
