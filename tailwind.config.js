@@ -15,9 +15,12 @@ module.exports = {
       colors: {
         'dark-gray': '#090e16',
         'gray':'#18263b',
-        'purple': '#422c7c',
+        'purple': '#2c2156',
         'dark-purple':'#313866',
-        'wine':'#352F44'
+        'wine':'#352F44',
+        'white':'#ffffff',
+        'black':'#000000',
+        'purple-nav': '#0f1120'
       },
       fontFamily: {
         RobotoMono: ['Black Ops One', 'cursive']

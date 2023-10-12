@@ -16,7 +16,7 @@ export default function ProjectsPage() {
             </div>
 
                 <div className="flex justify-center items-center gap-5">
-                    <div className="flex flex-col items-center justify-center rounded-md border border-dark-purple w-64 h-64 gap-5 ">
+                    <div className="flex flex-col items-center justify-center rounded-md border border-purple w-64 h-64 gap-5 ">
                         <div className=" w-52 ">
                             <img src="../img/pokedex.png" alt="" />
                         </div>
@@ -24,16 +24,20 @@ export default function ProjectsPage() {
                             <p>Pokedex com botões interativos onde se pode escolher qual pokemon visualizar</p>
                         </div>
                         <div className="flex justify-center gap-4 ">
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm" >
-                                Repositorios
-                            </button>
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm"  >
-                                Visualizar
-                            </button>
+                            <a href="https://github.com/Yagosr/Pokedex">
+                                <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm" >
+                                    Repositorios
+                                </button>
+                            </a>
+                            <a href="https://graceful-fairy-0e4fea.netlify.app/">
+                                <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm"  >
+                                    Visualizar
+                                </button>
+                            </a>
                         </div>
                     </div>
 
-                    <div className="flex flex-col items-center justify-center rounded-md border border-dark-purple w-64 h-64 gap-5 ">
+                    <div className="flex flex-col items-center justify-center rounded-md border border-purple w-64 h-64 gap-5 ">
                         <div className=" w-52 ">
                             <img src="../img/spotify.png" alt="imagem projeto spotify" />
                         </div>
@@ -41,12 +45,12 @@ export default function ProjectsPage() {
                             <p>Tela estatica clone do aplicativo de musica Spotify</p>
                         </div>
                         <div className="flex justify-center gap-4 ">
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm">
+                            <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm">
                                 <a href="https://github.com/Yagosr/Spotify-clone">
                                     Repositorios
                                 </a>
                             </button>
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm">
+                            <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm">
                                 <a href="https://silver-maamoul-9962ee.netlify.app/">
                                     Visualizar
                                 </a>
@@ -54,7 +58,7 @@ export default function ProjectsPage() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col items-center justify-center rounded-md border border-dark-purple w-64 h-64 gap-5 ">
+                    <div className="flex flex-col items-center justify-center rounded-md border border-purple w-64 h-64 gap-5 ">
                         <div className=" w-52 ">
                             <img src="../img/netflix.png" alt="" />
                         </div>
@@ -62,12 +66,12 @@ export default function ProjectsPage() {
                             <p>tela estatica clone da netflix, feita com HTML e CSS</p>
                         </div>
                         <div className="flex justify-center gap-4 ">
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm">
+                            <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm">
                                 <a href="https://github.com/Yagosr/Superflix">
                                     Repositorios
                                 </a>
                             </button>
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm">
+                            <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm">
                                 <a href="https://silly-macaron-1f5be2.netlify.app/">
                                     Visualizar
                                 </a>
@@ -86,12 +90,16 @@ export default function ProjectsPage() {
                             <p>Projeto realizado no curso de React.js da Digital innovation one</p>
                         </div>
                         <div className="flex justify-center gap-4 ">
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm" >
-                                Repositorios
-                            </button>
-                            <button className="border border-dark-purple bg-dark-purple h-10 w-24 hover:bg-dark-gray  text-sm"  >
-                                Visualizar
-                            </button>
+                            <a href="https://github.com/Yagosr/TelacadastroDio">
+                                <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm" >
+                                    Repositorios
+                                </button>
+                            </a>
+                            <a href="https://thriving-nasturtium-bb56a0.netlify.app/">
+                                <button className="border border-purple bg-purple h-10 w-24 hover:bg-dark-gray  text-sm"  >
+                                    Visualizar
+                                </button>
+                            </a>
                         </div>
                     </div>
 

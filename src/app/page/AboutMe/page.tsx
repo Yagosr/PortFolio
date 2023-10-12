@@ -15,8 +15,8 @@ export default function AboutMe() {
                 <ButtonBack/>
             </div>
             <div className="flex items-center justify-center gap-8">
-                <div>
-                    <img src="../img/Avatar-Maker.png" alt="imagem cartoon" width="400" height="400"/>
+                <div className="">
+                    <img  src="../img/fotoRedomda.png" alt="imagem cartoon" width="300" height="300"/>
                 </div>
                 <div className="flex flex-col items-start justify-center gap-1">
                     <h1 className="text-4xl">Yago Santana Rocha</h1>
