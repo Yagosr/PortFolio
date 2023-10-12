@@ -1,14 +1,6 @@
-'use client'
-import {useRouter} from "next/navigation"
 import Link from "next/link";
 
 export default function Main() {
-
-    const router = useRouter();
-    const handleInput = () => {
-        router.push("http://localhost:3000/page/AboutMe")
-    }
-
     return(
         <main className="flex align-center justify-center gap-32 ">
             <div className="pt-40">
@@ -45,6 +37,7 @@ export default function Main() {
         </main>
     )
 } 
+
 
 
 
