@@ -20,7 +20,9 @@ module.exports = {
         'wine':'#352F44',
         'white':'#ffffff',
         'black':'#000000',
-        'purple-nav': '#0f1120'
+        'purple-nav': '#0f1120',
+        'purple-card': '#14142b',
+        'purple-text': '#8a33ae',
       },
       fontFamily: {
         RobotoMono: ['Black Ops One', 'cursive']
