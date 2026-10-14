@@ -2,7 +2,7 @@
 import {useRouter} from "next/navigation"
 import ButtonBack from "@/app/components/ButtonBack/page";
 
-export default function carrer() {
+export default function Carrer() {
 
     const router = useRouter();
     const handleInput = () => {
