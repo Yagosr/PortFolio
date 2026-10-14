@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className="bg-dark-gray  text-zinc-50">{children}</body> 
+    <html lang="pt-br">
+      <body  style={{backgroundColor:"#090e16", color:'white'}}>{children}</body> 
     </html>
   )
 }

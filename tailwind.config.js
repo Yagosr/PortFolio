@@ -6,18 +6,29 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
       screens: {
-        sm: '480px',
+        sm: '100px',
         md: '768px',
         lg: '976px',
         xl: '1440px',
       },
       colors: {
         'dark-gray': '#090e16',
-        'purple': '#422c7c'
+        'gray':'#18263b',
+        'purple': '#2c2156',
+        'dark-purple':'#313866',
+        'wine':'#352F44',
+        'white':'#ffffff',
+        'black':'#000000',
+        'purple-nav': '#0f1120',
+        'purple-card': '#14142b',
+        'purple-text': '#8a33ae',
+      },
+      fontFamily: {
+        RobotoMono: ['Black Ops One', 'cursive']
       },
     },
+    extend: {
   },
   plugins: [],
 }
